@@ -1,0 +1,27 @@
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  height: 330px;
+  width: 330px;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  margin: 10px auto;
+  padding: 1em;
+  cursor: pointer;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+  padding: 5px;
+}
+
+.edit-form {
+  display: flex;
+}
+
+.container-edit {
+  display: flex;
+  justify-content: space-around;
+}
